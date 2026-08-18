@@ -7,6 +7,9 @@ export default defineConfig({
     starlight({
       title: "Fake Store API",
       favicon: "/favicon.png",
+      components: {
+        Head: "./src/components/overrides/Head.astro",
+      },
       head: [
 
         {
